@@ -1,0 +1,6 @@
+openai
+langchain
+llama-index
+streamlit
+pymupdf
+python-dotenv
