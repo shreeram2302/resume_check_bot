@@ -17,14 +17,17 @@ A Streamlit-based chatbot that allows you to intelligently **search and query re
 ---
 
 ## 📁 Folder Structure
-
 resume_bot/
-│
-├── app.py # Main Streamlit app
-├── resume_folder/ # Folder containing all uploaded resumes (PDFs)
-├── .env # Stores OpenAI API key (not pushed to GitHub)
-├── requirements.txt # Dependencies
-└── README.md # You are here
+
+├── resumes/
+│   ├── resume1.pdf
+│   └── resume2.pdf
+├── images/
+│   ├── screenshot1.png
+│   └── screenshot2.png
+├── README.md
+├── requirements.txt
+├── app.py
 
 Screenshots :
 
