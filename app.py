@@ -34,11 +34,11 @@ def build_index():
     parser = SimpleNodeParser()
     nodes = parser.get_nodes_from_documents(documents)
 
-    # Directly pass embed_model to VectorStoreIndex
+
     index = VectorStoreIndex(nodes, embed_model=embed_model)
     return index
 
-# Step 3: Streamlit UI
+
 st.set_page_config(page_title="Resume Bot", page_icon="📄")
 st.title("📄 Resume Bot (Offline)")
 st.write("Put your resumes in the `/resumes` folder and ask questions about skills, experience, etc.")
@@ -49,7 +49,7 @@ if query:
     with st.spinner("Searching..."):
         index = build_index()
 
-        # ✅ Disable LLM to avoid OpenAI dependency
+
         query_engine = index.as_query_engine()
         response = query_engine.query(query)
         st.subheader("Answer")
