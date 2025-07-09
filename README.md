@@ -1,6 +1,6 @@
 # 🤖 Resume Bot – AI-Powered Resume Search Engine
 
-A Streamlit-based chatbot that allows you to intelligently **search and query resumes** using **LLMs** (like OpenAI GPT) and **LlamaIndex**. Just upload your resumes, and ask questions like:
+A Streamlit-based chatbot that allows you to intelligently **search and query resumes** using **LLMs** (like Huggingface) and **LlamaIndex**. Just upload your resumes, and ask questions like:
 
 > 🔍 _"Who has experience in Flutter and cloud computing?"_
 
@@ -10,7 +10,7 @@ A Streamlit-based chatbot that allows you to intelligently **search and query re
 
 - ✅ Upload multiple `.pdf` resumes
 - ✅ Asks questions in natural language
-- ✅ Uses OpenAI (or any LLM) + LlamaIndex for semantic understanding
+- ✅ Uses huggingface  (or any LLM) + LlamaIndex for semantic understanding
 - ✅ Fast querying using document indexing
 - ✅ Clean and intuitive Streamlit UI
 
